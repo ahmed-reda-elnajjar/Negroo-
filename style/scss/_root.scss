@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+    font-family: Mulish-Light;
+}
+body{
+    background: rgb(255, 248, 248);
+}
+h2{font-size: 3.125rem;}
+h3{font-size: $font-28; color: $primary-color;}
+a{text-decoration: none;}
+p{font-size: $font-20; color: $text-color;}
+img{max-width: 100%; height: auto;}

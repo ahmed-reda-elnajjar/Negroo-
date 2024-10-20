@@ -1,0 +1,27 @@
+.main-button{
+    @include flexCenter;
+    height: 65px;
+    border-radius: $radius-64;
+}
+
+.primary-button{
+    background-color: $primary-color;
+    color: $white-color;
+    font-size: $font-24;
+    font-family: Mulish-Bold;
+    width: 250px;
+}
+
+.third-button{
+    border: 2px solid $primary-color;
+    width: 154px;
+    color: $primary-color;
+    font-size: $font-18;
+}
+
+.secondary-button{
+    background-color: rgba($primary-color, .15);
+    width: 200px;
+    color: $primary-color;
+    font-size: $font-20;
+}

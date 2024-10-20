@@ -1,0 +1,309 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css/style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Design</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">NEGROO</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list" id="Home">
+                    <li class="menu-list-item active"><a href="">Home</a></li>
+                    <li class="menu-list-item"><a href="#Movies">Movies</a></li>
+                    <li class="menu-list-item"><a href="#Series">Series</a></li>
+                    <li class="menu-list-item"><a href="#Trends">Trends</a></li>
+
+                </ul>
+            </div>
+
+
+
+            <div class="profile-container">
+                <div class="buttons"></div>
+                    <button class="login-btn featured-button"><a href="index.html" >Login</a></button>
+                    <button class="signup-btn"><a href="./signup.html">Sign up</a></button>
+                </div>
+
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <a href="" class="left-menu-icon fas fa-home"></a>
+        <a href="team members.html"  class="left-menu-icon fas fa-users"></a>
+        <a class="left-menu-icon fas fa-bookmark"  href="favorite.html"  ></a>
+    </div>
+     
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content" >
+                <img class="featured-title" src="img/f-t-1.png" alt="" >
+                <p class="featured-desc">With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.</p>
+                <button class="featured-button"><a href="https://asd.quest/%d9%81%d9%8a%d9%84%d9%85-django-unchained-2012-%d9%85%d8%aa%d8%b1%d8%ac%d9%85/"> Watch And Download </a></button>
+                
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper" >
+                    <div class="movie-list" >
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/fasel.jpeg" alt="">
+                            <span class="movie-list-item-title">فاصل من اللحظات اللذيذة</span>
+                            <p class="movie-list-item-desc">حيث تدور أحداث الفيلم في إطار كوميدي ممزوج ببعض الرومانسية، حول درية وصالح، تقع لهما العديد من المشاكل، إلى أن تفتح بوابة بالصدفة تقودهما إلى العوالم الموازية.</p>
+                            <button    class="favorite-button" onclick=" addTofavoritelist('فاصل من اللحظات اللذيذه', 'img/fasel.jpeg')"><a href="" >favorite</a></button>
+                            <button class="movie-list-item-button"><a href="https://asd.quest/%d9%81%d9%8a%d9%84%d9%85-%d9%81%d8%a7%d8%b5%d9%84-%d9%85%d9%86-%d8%a7%d9%84%d9%84%d8%ad%d8%b8%d8%a7%d8%aa-%d8%a7%d9%84%d9%84%d8%b0%d9%8a%d8%b0%d8%a9-2024/">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/x mraty.jpg" alt="">
+                            <span class="movie-list-item-title">اكس مراتي</span>
+                             <p class="movie-list-item-desc">تدور أحداث الفيلم في إطار اجتماعي كوميدي، حيث طبيب الأمراض النفسية يوسف الذي يتولى إصدار تقرير نفسي عن المجرم الخطير طه حتى يتم الإفراج عنه من السجن، ويكتشف أنه طليق زوجته سحر </p>
+                             <button class="favorite-button" onclick=" addTofavoritelist('اكس مراتي', 'img/x mraty.jpg')"><a href="">favorite</a></button>
+                             <button class="movie-list-item-button"><a href="https://www.youtube.com/watch?v=VOadH0PitnA"> Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/sh2o.jpeg" alt="">
+                            <span class="movie-list-item-title">شقو</span>
+                            <p class="movie-list-item-desc">حيث تدور أحداث الفيلم حول مجموعة أصدقاء خارجين عن القانون يمارسون أعمالاً إجرامية ومشبوهة، لكنها تقودهم إلى أزمات كبيرة وتحدث وراءها تبعات خطيرة</p>
+                            <button class="favorite-button" onclick=" addTofavoritelist('شقو', 'img/sh2o.jpeg')" ><a href="">favorite</a></button>
+                            <button class="movie-list-item-button"><a href="https://asd.quest/%d9%81%d9%8a%d9%84%d9%85-%d8%b4%d9%82%d9%88-2024/">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/عمر افندي.jpg" alt="">
+                            <span class="movie-list-item-title">عمر افندي</span>
+                            <p class="movie-list-item-desc">تدور أحداث المسلسل حول أحد الأشخاص الذي يعثر على سرداب سري يعود به إلى زمن بعيد، يكتشف من خلاله ماض لا يعلم عنه شيء، ويدفعه فضوله للعيش في حياة مزدوجة في زمانين مختلفين.</p>
+                            <button class="favorite-button" onclick=" addTofavoritelist('عمر افندي', 'img/عمر افندي.jpg')"><a href="">favorite</a></button>
+                            <button class="movie-list-item-button"><a href="https://asd.quest/%d9%85%d8%b3%d9%84%d8%b3%d9%84-%d8%b9%d9%85%d8%b1-%d8%a7%d9%81%d9%86%d8%af%d9%8a-%d8%a7%d9%84%d8%ad%d9%84%d9%82%d8%a9-1-%d8%a7%d9%84%d8%a7%d9%88%d9%84%d9%89/">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/برغ.jpg" alt="">
+                            <span class="movie-list-item-title">برغم القانون</span>
+                            <p class="movie-list-item-desc">حيث في إطار درامي، تعمل ليلى بالمحاماة وتعيش في مدينة بورسعيد، وتستيقظ في أحد الأيام لتجد أن زوجها قد اختفى، وبعد رحلة بحث، تكتشف هروبه تاركا طفلين وهما ليلى وهاشم</p>
+                            <button class="favorite-button" onclick=" addTofavoritelist('برغم القانون', 'img/برغ.jpg')"><a href="">favorite</a></button>
+                            <button class="movie-list-item-button"><a href="https://asd.quest/%d9%85%d8%b3%d9%84%d8%b3%d9%84-%d8%a8%d8%b1%d8%ba%d9%85-%d8%a7%d9%84%d9%82%d8%a7%d9%86%d9%88%d9%86-%d8%a7%d9%84%d8%ad%d9%84%d9%82%d8%a9-1-%d8%a7%d9%84%d8%a7%d9%88%d9%84%d9%89/">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/ديبو-367x550.png" alt="">
+                            <span class="movie-list-item-title">ديبو</span>
+                            <p class="movie-list-item-desc">حيث في إطار تشويقي كوميدي حول شاب مستهتر يدعى «ديبو» يضطر للعمل في أحد الفنادق من خلال مكتب توظيف لسداد ديونه ليكتشف فيما بعد أنه خاص بالحيوانات لتنقلب الأحداث رأسا على عقب.</p>
+                            <button class="favorite-button" onclick=" addTofavoritelist('ديبو', 'img/ديبو-367x550.png')"><a href="">favorite</a></button>
+                            <button class="movie-list-item-button"><a href="https://asd.quest/%d9%85%d8%b3%d9%84%d8%b3%d9%84-%d8%af%d9%8a%d8%a8%d9%88-%d8%a7%d9%84%d8%ad%d9%84%d9%82%d8%a9-1-%d8%a7%d9%84%d8%a7%d9%88%d9%84%d9%89/">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                                <button class="favorite-button" onclick=" addTofavoritelist('Movie 7', 'img/7.jpg')"><a href="">favorite</a></button>
+                                <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Movies</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list" id="Movies">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/8.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                                <button class="favorite-button" onclick=" addTofavoritelist('img/8.jpg')"><a href="">favorite</a></button>
+                                <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/9.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                                <button class="favorite-button" onclick=" addTofavoritelist('Movie 9', 'img/9.jpg')"><a href="">favorite</a></button>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/10.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                                <button class="favorite-button" onclick=" addTofavoritelist('Movie 10', 'img/10.jpg')"><a href="">favorite</a></button>
+                                <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/11.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                                <button class="favorite-button" onclick=" addTofavoritelist('Movie 11', 'img/11.jpg')"><a href="">favorite</a></button>
+                                <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/12.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                                <button class="favorite-button" onclick=" addTofavoritelist('Movie 12', 'img/12.jpg')"><a href="">favorite</a></button>
+                                <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                                <button class="favorite-button" onclick=" addTofavoritelist('Movie 13', 'img/1.jpeg')"><a href="">favorite</a></button>
+                                <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                                <button class="favorite-button" onclick=" addTofavoritelist('Movie 14', 'img/2.jpeg')"><a href="">favorite</a></button>
+                                <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content-Series" id="Series">
+        
+                <img class="featured-title" src="img/f-t-2.png" alt="">
+                <p class="featured-desc">A family saga with a supernatural twist, set in a German town where the disappearance of two young children exposes the relationships among four families.</p>
+              
+                <button class="featured-button"><a href="https://www.netflix.com/eg-en/title/80100172">Watch</a></button>
+            </div>
+            <div class="movie-list-container" >
+                <h1 class="movie-list-title" >series</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list" >
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/برغ.jpg" alt="">
+                            <span class="movie-list-item-title">برغم القانون</span>
+                            <p class="movie-list-item-desc">حيث في إطار درامي، تعمل ليلى بالمحاماة وتعيش في مدينة بورسعيد، وتستيقظ في أحد الأيام لتجد أن زوجها قد اختفى، وبعد رحلة بحث، تكتشف هروبه</p>
+                            <button class="favorite-button" onclick=" addTofavoritelist('Movie 5', 'img/برغ.jpg')"><a href="">favorite</a></button>
+                            <button class="movie-list-item-button"><a href="https://asd.quest/%d9%85%d8%b3%d9%84%d8%b3%d9%84-%d8%a8%d8%b1%d8%ba%d9%85-%d8%a7%d9%84%d9%82%d8%a7%d9%86%d9%88%d9%86-%d8%a7%d9%84%d8%ad%d9%84%d9%82%d8%a9-1-%d8%a7%d9%84%d8%a7%d9%88%d9%84%d9%89/">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/ديبو-367x550.png" alt="">
+                            <span class="movie-list-item-title">ديبو</span>
+                            <p class="movie-list-item-desc">حيث في إطار تشويقي كوميدي حول شاب مستهتر يدعى «ديبو» يضطر للعمل في أحد الفنادق من خلال مكتب توظيف لسداد ديونه ليكتشف فيما بعد أنه خاص بالحيوانات لتنقلب الأحداث رأسا على عقب.</p>
+                            <button class="favorite-button" onclick=" addTofavoritelist('Movie 6', 'img/ديبو-367x550.png')"><a href="">favorite</a></button>
+                            <button class="movie-list-item-button"><a href="https://asd.quest/%d9%85%d8%b3%d9%84%d8%b3%d9%84-%d8%af%d9%8a%d8%a8%d9%88-%d8%a7%d9%84%d8%ad%d9%84%d9%82%d8%a9-1-%d8%a7%d9%84%d8%a7%d9%88%d9%84%d9%89/">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/عمر افندي.jpg" alt="">
+                            <span class="movie-list-item-title">عمر افندي</span>
+                            <p class="movie-list-item-desc">تدور أحداث المسلسل حول أحد الأشخاص الذي يعثر على سرداب سري يعود به إلى زمن بعيد، يكتشف من خلاله ماض لا يعلم عنه شيء، ويدفعه فضوله للعيش في حياة مزدوجة في زمانين مختلفين.</p>
+                            <button class="favorite-button" onclick=" addTofavoritelist('Movie 4', 'img/عمر افندي.jpg')"><a href="">favorite</a></button>
+                             <button class="movie-list-item-button"><a href="https://asd.quest/%d9%85%d8%b3%d9%84%d8%b3%d9%84-%d8%b9%d9%85%d8%b1-%d8%a7%d9%81%d9%86%d8%af%d9%8a-%d8%a7%d9%84%d8%ad%d9%84%d9%82%d8%a9-1-%d8%a7%d9%84%d8%a7%d9%88%d9%84%d9%89/">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/interview.jpg" alt="">
+                            <span class="movie-list-item-title">انترفيو</span>
+                            <p class="movie-list-item-desc">حيث تدور الأحداث حول (نادين) التي تعمل محللة بيانات، حيث تذهب ﻹجراء مقابلة عمل، ولكنها لم تكن تعلم أن هذه المقابلة ستقلب حياتها رأسًا على عقب، وتتوالى الأحداث</p>
+                            <button class="favorite-button" onclick=" addTofavoritelist('Movie 15', 'img/interview.jpg')"><a href="">favorite</a></button>
+                            <button class="movie-list-item-button"><a href="https://asd.quest/%d9%85%d8%b3%d9%84%d8%b3%d9%84-%d8%a7%d9%86%d8%aa%d8%b1%d9%81%d9%8a%d9%88-%d8%a7%d9%84%d8%ad%d9%84%d9%82%d8%a9-2-%d8%a7%d9%84%d8%ab%d8%a7%d9%86%d9%8a%d8%a9/">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/moftrk.jpg" alt="">
+                            <span class="movie-list-item-title">مفترق طرق</span>
+                            <p class="movie-list-item-desc">حيث عندما يتورط زوجها، وهو شخصية مرموقة في المجتمع، في فضيحة مدوية، لا تجد أميرة خيارا سوى العودة إلى مزاولة مهنتها لإعالة ولديها، بعد خمسة عشر عاما قضتها كربة منزل.</p>
+                            <button class="favorite-button" onclick=" addTofavoritelist('Movie 16', 'img/moftrk.jpg')"><a href="">favorite</a></button>
+                            <button class="movie-list-item-button"><a href="https://asd.quest/%d9%85%d8%b3%d9%84%d8%b3%d9%84-%d9%85%d9%81%d8%aa%d8%b1%d9%82-%d8%b7%d8%b1%d9%82-%d8%a7%d9%84%d8%ad%d9%84%d9%82%d8%a9-1-%d8%a7%d9%84%d8%a7%d9%88%d9%84%d9%8a/">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                                <button class="favorite-button" onclick=" addTofavoritelist('Movie 17', 'img/5.jpg')"><a href="">favorite</a></button>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Trends</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item" id="Trends">
+                            <img class="movie-list-item-img" src="img/the goat life.jpg" alt="">
+                            <span class="movie-list-item-title">The Goat Life</span>
+                            <p class="movie-list-item-desc">An Indian man seeking work follows a job lead to Saudi Arabia, only to find himself forced to labor without pay as a goat herder in the remote desert.</p>
+                            <button class="favorite-button" onclick=" addTofavoritelist('Movie 18', 'img/the goat life.jpg')"><a href="">favorite</a></button>
+                            <button class="movie-list-item-button"><a href="https://asd.quest/%d9%81%d9%8a%d9%84%d9%85-the-goat-life-2024-%d9%85%d8%aa%d8%b1%d8%ac%d9%85/">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/ولاد رزق 3.jpg" alt="">
+                            <span class="movie-list-item-title">ولاد رزق القاضية</span>
+                            <p class="movie-list-item-desc">بعد مرور سنوات وانفصال الإخوة في طرق حياتهم المختلفة. لكن ذات يوم، يعود شبح من الماضي ليلقي بظلاله على أبناء رزق، مما يجبرهم على العودة إلى حياة الجريمة والسرقة مرة أخرى من أجل إنقاذ أنفسهم.</p>
+                            <button class="favorite-button" onclick=" addTofavoritelist('Movie 19', 'img/ولاد رزق 3.jpg')"><a href="">favorite</a></button>
+                            <button class="movie-list-item-button"><a href="https://www.youtube.com/watch?v=8JqprXzsv80">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/images.jpeg" alt="">
+                            <span class="movie-list-item-title">Deadpool and Wolverine</span>
+                            <p class="movie-list-item-desc">Wade Wilson returns on a new adventure when he cooperates with the Time Variance Organization on a secret mission, and over time he finds himself facing many unexpected enemies.</p>
+                            <button class="favorite-button" onclick=" addTofavoritelist('Movie 20', 'img/images.jpeg')"><a href="">favorite</a></button>
+                             <button class="movie-list-item-button"><a href="https://asd.quest/deadpool-and-wolverine-2024/">Watch</a></button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/inside-out-2-poster.jpeg" alt="">
+                            <span class="movie-list-item-title">inside out 2</span>
+                            <p class="movie-list-item-desc">A sequel that features Riley entering puberty and experiencing brand new, more complex emotions as a result. As Riley tries to adapt to her teenage</p>
+                            <button class="favorite-button" onclick=" addTofavoritelist('Movie 21', 'img/inside-out-2-poster.jpeg')"><a href="">favorite</a></button>
+                             <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                                <button class="favorite-button" onclick=" addTofavoritelist('Movie 13', 'img/1.jpeg')"><a href="">favorite</a></button>
+                                 <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                                <button class="favorite-button" onclick=" addTofavoritelist('Movie 14', 'img/2.jpeg')"><a href="">favorite</a></button>
+                                <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/14.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                                <button class="favorite-button" onclick=" addTofavoritelist('Movie 22', 'img/14.jpg')"><a href="">favorite</a></button>
+                                <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+         
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
